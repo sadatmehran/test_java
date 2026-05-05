@@ -1,8 +1,9 @@
-public class Dog{
-    private string type;
+public class Dog {
+    private String type;
     private int age;
-    private string type;
-    public Dog(){
+    private String color;
+
+    public Dog() {
         this.type = "animal";
         this.age = 5;
         this.color = "white";

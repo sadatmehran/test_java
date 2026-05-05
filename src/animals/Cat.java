@@ -1,6 +1,6 @@
 public class Cat{
-    private string type;
-    private string color;
+    private String type;
+    private String color;
     public Cat(){
         this.type = "animal";
         this.color = "black";

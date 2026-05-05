@@ -1,10 +1,11 @@
-public class Monkey{
-    private string type;
+public class Monkey {
+    private String type;
     private int age;
-    private string type;
-    public Monkey(){
+    private String color;
+
+    public Monkey() {
         this.type = "animals";
-        this.age = 4 ;
+        this.age = 4;
         this.color = "white";
     }
 }
