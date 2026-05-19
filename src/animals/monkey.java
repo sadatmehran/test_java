@@ -1,31 +1,11 @@
-public class Monkey{
-    private String name;
-    private String drink;
-    
-    
-    public String getName(){
-        return name;
+public class Monkey {
+    private String type;
+    private int age;
+    private String color;
+
+    public Monkey() {
+        this.type = "animals";
+        this.age = 4;
+        this.color = "white";
     }
-
-    public void setName(String name){
-        this.name = name;
-    }
-
-    public String getDrink(){
-        return drink;
-    }
-
-    public void setDrink(String drink){
-        this.drink = drink;
-    }
-
-
-    public void drink(){
-        if(drink == "grape juoce" || drink == "tea"){
-            System.out.println("the monkey is drinking " + drink);
-        }else{
-            System.out.println("the monkey does not drink " + drink);
-        }
-    }
-
 }
